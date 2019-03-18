@@ -1,0 +1,37 @@
+ Diagrama de Classes
+
+Toda classe é um retangulo
+
+        ---------------------------------
+        |                               |
+        |             Caneta            |  <== Nome da Classe
+        |                               |
+        ---------------------------------
+        | + modelo                      |
+        | + cor                         |
+        | - ponta                       |  <== Atributos da classe
+        | # carga                       |
+        | # tampada                     |
+        ---------------------------------
+        | + escrever()                  |
+        | + rabiscar()                  |
+        | + pintar()                    |  <== Metodos da classe
+        | - tampar()                    |
+        | - destampar()                 |
+        ---------------------------------
+
+
+
+
+                                Modificadores de Visibilidade
+
+        Indica o nivel de acesso aos componentes internos de uma classe
+
+        + publico
+        - privado
+        # protegido
+
+
+        + publico       ==> a classe atual e todas as outras classes
+                                                        1,2-16       Topo
+

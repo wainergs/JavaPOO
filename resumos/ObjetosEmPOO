@@ -1,0 +1,63 @@
+				Objetos em POO
+	
+		Uma classe sempre tem que responder a tres perguntas:
+	
+
+				Exemplo Caneta
+
+
+
+				Que coisas eu tenho?
+					
+					Modelo
+					Cor
+					Ponta
+					Carga
+					Tampada		
+		
+			
+				Que coisas eu faço?
+
+					Escrever
+					Rabiscar
+					Pintar
+					Tampar
+					Destampar
+
+			
+				Como estou agora?
+
+					
+Que coisas eu tenho em poo é os atributos da classe
+Que coisas eu faço pe os metodos da classe
+Como estou agora é o estado da classe
+Toda objeto tem essas tres opções
+Todo objeto vem de uma classe
+
+	Instanciar ==> Gerar um objeto a partir de uma classe
+	exemplo ==> c1 = nova Caneta
+		    c1.cor = 'Azul'
+		    c1.ponta = 0.5;
+		    c1.tampada = falso;
+		    c1.rabiscar();
+
+		    c2 = nova Caneta;
+		    c2.cor = 'vermelha';
+		    c2.ponta = 1.0;
+		    c2.tampada = falso;
+		    c2.tampar();
+
+Objetos diferentes mas que sao oriundos da mesma classe, tendo os mesmos atrinutos.
+
+Sendo Assim:
+	
+	Classe ==> Define os atributos e metodos comuns que serao compartilhados
+		  por um objeto.
+
+	
+	Objeto ==> É a instancia de uma classe
+
+
+		
+
+

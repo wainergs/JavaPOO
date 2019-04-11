@@ -43,6 +43,7 @@ public class Employee {
 	   public void increaseSalary(double percente){
 	        double earning = getSalario() * (1 + (percente / 100));
 	        this.setSalario(earning);  
+	        System.out.println("Salario do(a) "+getNome()+" atualizado com sucesso!!");
 	    }
 	
 

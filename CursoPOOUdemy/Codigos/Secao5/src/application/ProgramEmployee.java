@@ -41,7 +41,7 @@ public class ProgramEmployee {
 			System.out.println("ID nao encontrado");
 		}else {
 			System.out.print("Enter the percentage: ");
-           double percentage = sc.nextDouble();
+			double percentage = sc.nextDouble();
             employee.increaseSalary(percentage);
 		}
 		
